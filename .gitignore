@@ -31,6 +31,12 @@
 *.synctex.gz(busy)
 *.pdfsync
 
+## Unzipped files:
+ieee
+!ieee/install.sh
+!ieee/uninstall.sh
+!ieee/README.md
+
 ## Auxiliary and intermediate files from other packages:
 
 # algorithms
