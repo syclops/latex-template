@@ -37,6 +37,11 @@ ieee
 !ieee/uninstall.sh
 !ieee/README.md
 
+usenix
+!usenix/install.sh
+!usenix/uninstall.sh
+!usenix/README.md
+
 ## Auxiliary and intermediate files from other packages:
 
 # algorithms
