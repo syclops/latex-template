@@ -1,0 +1,27 @@
+\titledquestion{\thequestion. Parts}[10]
+
+This is an example of a question with multiple parts. To avoid double-counting
+points in the grading table, you must start the \texttt{parts} environment with
+the \texttt{noaddpoints} command and end with the \texttt{addpoints} command.
+You are thus responsible for ensuring that the point totals add up correctly.
+
+\noaddpoints
+
+\begin{parts}
+
+  \part[3] This is a sample part.
+
+  \part[3] Now we will take a look at how a subpart works.
+
+  \begin{subparts}
+
+    \subpart[1] This is sample subpart.
+
+    \subpart[2] We can also have subsubparts, but let's not worry about that for
+    now.
+
+  \end{subparts}
+
+\end{parts}
+
+\addpoints

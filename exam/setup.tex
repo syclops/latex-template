@@ -1,0 +1,21 @@
+\usepackage{etoolbox}
+\usepackage{graphicx}
+\usepackage{paralist}
+\usepackage{xspace}
+
+% Prevent the grading table from showing the question titles.
+\makeatletter
+\patchcmd{\questions}
+  {\def\@currentlabel{\thequestiontitle}}
+  {\def\@currentlabel{\thequestion}}
+  {}
+  {}
+\makeatother
+
+\qformat{\textbf{\normalsize{\thequestiontitle\xspace (\totalpoints\xspace
+points)\hfill}}}
+
+% Enable true/false questions
+\newcommand{\tf}[1][{}]{%
+\fillin[#1][0.25in]%
+}

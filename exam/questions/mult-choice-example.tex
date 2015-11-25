@@ -1,0 +1,25 @@
+\titledquestion{\thequestion. Multiple Choice}[10]
+
+This is an example of a multiple-choice question. Use the \texttt{choices}
+environment to display each choice on its own line, and use the
+\texttt{oneparchoices} environment to display the choices as part of the
+paragraph. If instead of letters you want to use checkboxes, you can use the
+\texttt{checkboxes} or \texttt{oneparcheckboxes} environments, respectively.
+
+You can create a choice within the environment using the \texttt{choice}
+command. If you want to indicate the correct choice so that it shows up properly
+in the solutions, use the \texttt{CorrectChoice} command.
+
+Here is an example using \texttt{oneparchoices}:
+
+\begin{oneparchoices}
+
+  \choice Incorrect
+
+  \choice Also incorrect
+
+  \choice Incorrect too
+
+  \CorrectChoice Correct
+
+\end{oneparchoices}
