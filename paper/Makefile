@@ -1,8 +1,8 @@
 PAPER = paper
 LATEXMK = latexmk
-FLAGS = -pdf -bibtex
-CLEAN_FLAGS = -c -bibtex
-CLEAN_FULL_FLAGS = -C -bibtex
+FLAGS = -pdf -bibtex-cond
+CLEAN_FLAGS = -c -bibtex-cond
+CLEAN_FULL_FLAGS = -C -bibtex-cond
 
 .PHONY = all paper clean clean-full
 
