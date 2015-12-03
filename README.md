@@ -11,6 +11,8 @@ Currently, I use the following templates:
 * `paper`: for academic papers, primarily aimed at computer science (my
   discipline). This template also contains folders for the ACM, IEEE, and USENIX
   templates used in major computer science conferences.
+* `exam`: for exams in academic courses. This template also includes examples of
+  common question types.
 
 ## License
 
