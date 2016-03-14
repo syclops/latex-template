@@ -13,6 +13,8 @@ Currently, I use the following templates:
   templates used in major computer science conferences.
 * `exam`: for exams in academic courses. This template also includes examples of
   common question types.
+* `idea`: for presenting research paper ideas. This template provides three
+  sections to fill out: motivation, challenges, and novelty.
 
 ## License
 
