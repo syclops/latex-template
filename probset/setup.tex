@@ -1,0 +1,35 @@
+\usepackage{etoolbox}
+\usepackage{fullpage}
+\usepackage{graphicx}
+\usepackage{paralist}
+\usepackage{xspace}
+
+% Prevent the grading table from showing the question titles.
+%\makeatletter
+%\patchcmd{\questions}
+  %{\def\@currentlabel{\thequestiontitle}}
+  %{\def\@currentlabel{\thequestion}}
+  %{}
+  %{}
+%\makeatother
+
+\qformat{\textbf{\normalsize{\thequestion. \thequestiontitle\hfill}}}
+
+% Enable true/false questions
+\newcommand{\tf}[1][{}]{%
+\fillin[#1][0.25in]%
+}
+
+% Enable headers and footers
+\pagestyle{headandfoot}
+\runningheadrule
+\extraheadheight{0in}
+
+\newcommand{\classname}{Class Name}
+\newcommand{\probsetname}{Problem Set Name}
+\newcommand{\season}{Season 20XX}
+
+\firstpageheader{\classname}{\probsetname}{\season}
+\firstpagefooter{}{Page \thepage\ of \numpages}{}
+\runningheader{\classname}{\probsetname}{\season}
+\runningfooter{}{Page \thepage\ of \numpages}{}
